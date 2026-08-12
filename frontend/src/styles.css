@@ -1,32 +1,42 @@
 :root {
-  --bg: #0f1719;
-  --bg-alt: #131c1f;
-  --surface: #182226;
-  --surface-hover: #1e2a2e;
-  --border: rgba(201, 154, 75, 0.16);
-  --border-strong: rgba(201, 154, 75, 0.32);
-  --text: #e9e4d8;
-  --text-dim: #93a0a2;
-  --text-faint: #5c6669;
-  --accent: #c99a4b;
-  --accent-bright: #e6b85c;
-  --accent-teal: #4fa8a0;
-  --danger: #c1554a;
-  --success: #6fae6e;
+  /* ── Core Backgrounds ─────────────────────────────── */
+  --bg: #0a0f18;
+  --bg-alt: #0f1624;
+  --surface: #141d2d;
+  --surface-hover: #1b273a;
 
-  --heat-0: #1b2427;
-  --heat-1: #3a2a28;
-  --heat-2: #6b3a2e;
-  --heat-3: #a85a34;
-  --heat-4: #d08a3e;
-  --heat-5: #e8b84f;
-  --heat-6: #f6de8c;
+  /* ── Borders ──────────────────────────────────────── */
+  --border: rgba(76, 139, 255, 0.14);
+  --border-strong: rgba(76, 139, 255, 0.30);
 
+  /* ── Text ─────────────────────────────────────────── */
+  --text: #e8edf7;
+  --text-dim: #94a3b8;
+  --text-faint: #5d6b80;
+
+  /* ── Primary Accent ───────────────────────────────── */
+  --accent: #4c8dff;
+  --accent-bright: #70a7ff;
+  --accent-teal: #38bdf8;
+
+  /* ── Status ───────────────────────────────────────── */
+  --danger: #ef6262;
+  --success: #4ade80;
+
+  /* ── Heatmap ──────────────────────────────────────── */
+  --heat-0: #151d2b;
+  --heat-1: #172943;
+  --heat-2: #1d4268;
+  --heat-3: #24679a;
+  --heat-4: #2d8bc4;
+  --heat-5: #45b5e8;
+  --heat-6: #8ddcff;
+
+  /* ── Typography ───────────────────────────────────── */
   --font-display: "Fraunces", serif;
   --font-body: "Inter", sans-serif;
   --font-mono: "JetBrains Mono", monospace;
 }
-
 * {
   box-sizing: border-box;
 }
